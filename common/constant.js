@@ -1,0 +1,32 @@
+/*
+	常量命名都存放在该文件中
+*/
+export const CONSTANT = {
+	test : '测试刚好',
+	open:'在营（开业）',
+	loading:'加载中',
+	tip:'提示',
+	isOver:'今日查询次数已用完',
+	noBenefitInfo:'该企业已注销，无法查看受益所有人信息',
+	indexPage:['受益所有人识别工具','历史查询','我的关注','判定标准','最近搜索','为了更好的体验，此应用需要您的授权','允许授权'],
+	hisNoData:'暂无历史查询记录',
+	recentNoData:'暂无查询记录',
+	unit:'万元',
+	regCap:'注册资本',
+	frName:'法人',
+	noAttentCompany:'您还没有关注任何企业',
+	benefit:'受益人',
+	rute:['路径','条路径'],
+	seeMore:'查看更多',
+	graph:'图谱',
+	textNoBenefit25:'没有直接或间接控股超过25%股权占比的受益所有人，以关键管理人员作为该企业的受益所有人。',
+	position:'任职类型',
+	finalRatio:'股权占比',
+	exportEmail:'导出',
+	attention:'关注',
+	chain:'股权链',
+	textNoBenefit:'没有直接或间接控股超过25%股权占比的受益所有人',
+	finaType:'直接或间接股东',
+	searchHis:'搜索历史',
+	noData:'暂无数据',
+}

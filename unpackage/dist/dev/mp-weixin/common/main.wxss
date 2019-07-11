@@ -1,0 +1,290 @@
+/*每个页面公共css */
+.over-show {
+  width: 500rpx;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.chain,
+.benefit-chain {
+  font-family: SimHei;
+  padding: 40rpx 30rpx;
+  font-size: 24rpx;
+}
+.chain .fix,
+.benefit-chain .fix {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.chain-list-li,
+.benefit-chain-list-li {
+  margin-bottom: 30rpx;
+}
+.chain-list-li .title,
+.benefit-chain-list-li .title {
+  height: 64rpx;
+  font-size: 28rpx;
+  background: rgba(51, 125, 255, 0.05);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 30rpx;
+}
+.chain-list-li .title .label,
+.benefit-chain-list-li .title .label {
+  color: #333;
+  opacity: 0.85;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-right: 20rpx;
+}
+.chain-list-li .title .cont,
+.benefit-chain-list-li .title .cont {
+  -webkit-box-flex: 6;
+  -webkit-flex: 6;
+      -ms-flex: 6;
+          flex: 6;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.chain-list-li .title .cont .con,
+.benefit-chain-list-li .title .cont .con {
+  width: 400rpx;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.chain-list-li .line-childs,
+.benefit-chain-list-li .line-childs {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.chain-list-li .line-childs .childs-li,
+.benefit-chain-list-li .line-childs .childs-li {
+  min-height: 100rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30rpx 8rpx 20rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.chain-list-li .line-childs .childs-title,
+.benefit-chain-list-li .line-childs .childs-title {
+  font-size: 28rpx;
+  margin-bottom: 20rpx;
+}
+.chain-list-li .line-childs .childs-content,
+.benefit-chain-list-li .line-childs .childs-content {
+  color: #333;
+  opacity: 0.85;
+}
+.chain-list-li .line-childs .childs-content .shareholdingRatio,
+.benefit-chain-list-li .line-childs .childs-content .shareholdingRatio {
+  color: #337DFF;
+}
+.chain-footer,
+.benefit-chain-footer {
+  width: 100%;
+  height: 80rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 28rpx;
+}
+.no-data {
+  text-align: center;
+  width: 100%;
+  height: 200rpx;
+  line-height: 200rpx;
+  color: #333;
+  font-size: 36rpx;
+}
+.no-recent {
+  padding: 202rpx 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.no-recent .no-data-img {
+  width: 470rpx;
+  height: 330rpx;
+}
+.no-recent .text-exp {
+  color: rgba(51, 51, 51, 0.45);
+}
+.search {
+  font-family: SimHei;
+}
+.search-contain {
+  width: 670rpx;
+  margin: 0 auto;
+  position: relative;
+}
+.search-contain .search-icon {
+  position: absolute;
+  color: #0047FF;
+  width: 40rpx;
+  height: 40rpx;
+  left: 27rpx;
+  top: 27rpx;
+}
+.search-contain .search-input {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 80rpx;
+  height: 90rpx;
+  -webkit-border-radius: 45rpx;
+          border-radius: 45rpx;
+  font-size: 28rpx;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 2rpx solid #005aff;
+}
+.recent {
+  font-size: 28rpx;
+  font-family: SimHei;
+}
+.recent-list-li {
+  position: relative;
+  width: 100%;
+  height: 145rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0rpx 0rpx 8rpx 0rpx rgba(0, 0, 0, 0.08);
+          box-shadow: 0rpx 0rpx 8rpx 0rpx rgba(0, 0, 0, 0.08);
+  margin-bottom: 20rpx;
+  padding: 30rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.recent-list-li .li-icon {
+  width: 82rpx;
+  height: 80rpx;
+  -webkit-border-radius: 8rpx;
+          border-radius: 8rpx;
+  background-color: rgba(216, 216, 216, 0.28);
+  margin-right: 20rpx;
+}
+.recent-list-li .li-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  line-height: 35rpx;
+}
+.recent-list-li .li-content-title {
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 28rpx;
+  font-family: SimHei;
+  width: 500rpx;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.recent-list-li .li-content-other {
+  opacity: 0.45;
+  color: #000000;
+  font-size: 24rpx;
+  width: 500rpx;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.recent-list-li .li-content-other .fnName {
+  margin-right: 50rpx;
+}
+.recent-list-li .li-status {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 5rpx;
+  min-width: 80rpx;
+  height: 35rpx;
+  line-height: 35rpx;
+  background-color: #e7f3ff;
+  color: #1C86FA;
+  text-align: center;
+  font-size: 24rpx;
+}
+.recent-list-li .li-status.cancel {
+  background-color: #fff4f2;
+  color: #EC6E5C;
+}
+
