@@ -3,3 +3,4 @@ node_modules
 /unpackage
 /dist
 manifest.json
+package-lock.json*
