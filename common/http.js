@@ -43,7 +43,7 @@ class Http {
 		}
 		return uni.request(this.config).then(res=> {
 			let data = res[1];
-			if(data.statusCode == '401'){
+			if(data.statusCode == '401'){//token失效
 				return login().then(res=>{
 					this.setToken();
 					return this.request();
