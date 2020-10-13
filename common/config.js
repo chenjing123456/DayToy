@@ -1,10 +1,14 @@
 import NetWork from "./NetWork.js";
 export const config = {
+	//1.微信小程序
 	// production
-	DOMAIN : "https://syr.yscredit.com",
+	// DOMAIN : "线上域名",
+	//dev
+	// DOMAIN : "http://10.1.2.102:8086",
+	 
+	// 2.h5
+	DOMAIN : "",
 	
-	// dev
-	// DOMAIN : "http://10.1.1.142:8080",
 	reqConfig:{
 		exeQueue : true,
 		promiseQueue : []
